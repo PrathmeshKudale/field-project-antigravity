@@ -1,0 +1,90 @@
+{
+  "ask": {
+    "placeholder": "Apna sawaal likhiye, e.g.: ITI ke baad diploma kaise milega?",
+    "submit": "Ask",
+    "example_chips": [
+      "ITI ke baad degree?",
+      "Diploma ke baad B.Tech?",
+      "Is this certificate valid?"
+    ],
+    "privacy_note": "Do not enter names or phone numbers",
+    "consent": "We answer only from approved documents and show our proof. No guarantees, ever.",
+    "char_limit": "{{count}} / 600",
+    "over_limit": "Question too long (max 600 characters)",
+    "stages": {
+      "understand": "Understanding your question",
+      "retrieve": "Finding sources",
+      "verify": "Checking each statement",
+      "explain": "Preparing your answer"
+    },
+    "waking": "Server is waking up, this can take about a minute"
+  },
+  "verdict": {
+    "VERIFIED_FACT": "Supported by official sources",
+    "MYTH_FALSE": "Not supported: sources say otherwise",
+    "PARTIALLY_TRUE": "Partly true: details matter",
+    "CONTEXT_DEPENDENT": "Depends on your situation",
+    "INSUFFICIENT_EVIDENCE": "We could not verify this",
+    "evidence_strength": "Evidence strength: {{n}} of {{m}} statements verified",
+    "review_flag": "Queued for expert review"
+  },
+  "eligibility": {
+    "MEETS_CHECKED_CONDITIONS": "Meets checked conditions",
+    "NOT_ELIGIBLE_UNDER_THIS_RULE": "Not eligible under this rule",
+    "NEEDS_MORE_INFORMATION": "Need more information",
+    "NEEDS_LOCAL_RULE_CHECK": "Check your state brochure",
+    "RULE_STALE_NEEDS_REVIEW": "Rule needs review",
+    "BRANCH_OR_TRADE_REVIEW_REQUIRED": "Ask the institute",
+    "disclaimer": "This checks the conditions we have on record. It is not an admission decision."
+  },
+  "abstain": {
+    "title": "We could not verify this",
+    "body": "Our approved sources do not establish an answer to this question.",
+    "who_to_ask": "Who to ask"
+  },
+  "pathway": {
+    "title": "Pathway Checker",
+    "disclaimer": "This checks the conditions we have on record. It is not an admission decision.",
+    "caveats": "Entrance tests, seat availability, documents and local rules are not checked here.",
+    "check_routes": "Check routes",
+    "skip_question": "Skip"
+  },
+  "report": {
+    "title": "Family Report",
+    "save": "Save report",
+    "print": "Print or save as PDF",
+    "sections": {
+      "question": "Question",
+      "verdict": "Verdict",
+      "verified": "What we verified",
+      "routes": "Your routes and status",
+      "unknown": "What is still unknown",
+      "questions": "Questions to ask the institute",
+      "next_steps": "Next steps",
+      "disclaimer": "This is decision support, not official advice."
+    }
+  },
+  "demo_banner": "Demo data: fictional policy text, not official guidance",
+  "footer_disclaimer": "This is decision support, not official advice.",
+  "nav": {
+    "ask": "Ask",
+    "pathway": "Pathway",
+    "reports": "Reports",
+    "studio": "Rule Studio",
+    "eval": "Eval Lab",
+    "sources": "Sources",
+    "admin": "Admin",
+    "sign_in": "Sign in"
+  },
+  "auth": {
+    "login": "Sign In",
+    "register": "Create Account",
+    "email": "Email Address",
+    "password": "Password",
+    "guardian_consent": "I am 18 or older, or a parent/guardian has agreed.",
+    "password_hint": "Must be at least 10 characters.",
+    "settings": "Settings",
+    "language": "Interface Language",
+    "delete_account": "Delete My Account & Data"
+  }
+}

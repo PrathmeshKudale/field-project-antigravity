@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "description": "Allowed fact attributes and their types/allowed values for ProofPath rule engine",
+  "attributes": [
+    {
+      "name": "ssc.passed",
+      "type": "boolean",
+      "label": "SSC (Class X) passed",
+      "description": "Candidate has passed Class X board examination"
+    },
+    {
+      "name": "qualification.type",
+      "type": "enum",
+      "values": [
+        "ITI",
+        "Diploma",
+        "HSC",
+        "SSC",
+        "Degree"
+      ],
+      "label": "Qualification type",
+      "description": "Highest relevant completed qualification"
+    },
+    {
+      "name": "qualification.trade",
+      "type": "string",
+      "label": "Trade or Branch",
+      "description": "Specific ITI trade or diploma branch completed"
+    },
+    {
+      "name": "qualification.duration_years",
+      "type": "number",
+      "label": "Duration in years",
+      "description": "Duration of completed certificate or diploma"
+    },
+    {
+      "name": "marks.percent",
+      "type": "number",
+      "label": "Marks percentage",
+      "description": "Aggregate percentage in qualifying exam"
+    },
+    {
+      "name": "state.name",
+      "type": "string",
+      "label": "Domicile State",
+      "description": "State of domicile or qualifying examination"
+    },
+    {
+      "name": "academic_year",
+      "type": "string",
+      "label": "Academic Year",
+      "description": "Target admission year, e.g. 2026-27"
+    },
+    {
+      "name": "route.target",
+      "type": "enum",
+      "values": [
+        "ITI_TO_DIPLOMA_DSE",
+        "DIPLOMA_TO_DEGREE_DSE",
+        "HSC_TO_DIPLOMA",
+        "HSC_TO_DEGREE"
+      ],
+      "label": "Target Route",
+      "description": "Desired progression pathway"
+    },
+    {
+      "name": "craft_certificate.mapped_trade",
+      "type": "boolean",
+      "label": "Trade is Mapped",
+      "description": "True if the ITI trade maps to the target diploma branch under Table 3.2"
+    },
+    {
+      "name": "institute.approved",
+      "type": "boolean",
+      "label": "Institute Approved",
+      "description": "Institute is recognized by the state technical board"
+    }
+  ]
+}

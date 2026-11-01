@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "corpus_version": 1,
+  "description": "Fictional demo eligibility rules authored from Example State Admission Handbook 2026-27.",
+  "rules": [
+    {
+      "rule_id": "DEMO-DSE-001",
+      "rule_key": "DEMO-DSE-001",
+      "version": 1,
+      "route": "ITI_TO_DIPLOMA_DSE",
+      "title": "Direct Second Year Diploma (DSE) Admission for ITI Holders",
+      "status": "published",
+      "is_current": true,
+      "source_slug": "demo-handbook-2026",
+      "source_page": 3,
+      "source_clause": "3.1",
+      "effective_from": "2026-06-01",
+      "effective_until": "2027-05-31",
+      "caveats": [
+        "Subject to seat availability in mapped branch",
+        "Candidate must verify institute approval with state board",
+        "Centralized admission rounds and document verification apply"
+      ],
+      "conditions": {
+        "all": [
+          {
+            "attr": "ssc.passed",
+            "op": "eq",
+            "value": true,
+            "quote": "A candidate who has passed the Class X examination"
+          },
+          {
+            "attr": "qualification.type",
+            "op": "in",
+            "value": [
+              "ITI"
+            ],
+            "quote": "and holds a Two-Year Craft Certificate"
+          },
+          {
+            "attr": "craft_certificate.mapped_trade",
+            "op": "eq",
+            "value": true,
+            "quote": "in a Mapped Trade"
+          },
+          {
+            "attr": "marks.percent",
+            "op": "gte",
+            "value": 50.0,
+            "quote": "shall be eligible for Direct Second Year admission to a Diploma in a Mapped Branch"
+          }
+        ]
+      }
+    },
+    {
+      "rule_id": "DEMO-LAT-001",
+      "rule_key": "DEMO-LAT-001",
+      "version": 1,
+      "route": "DIPLOMA_TO_DEGREE_DSE",
+      "title": "Lateral Entry to Second Year B.Tech / B.E. for Diploma Holders",
+      "status": "published",
+      "is_current": true,
+      "source_slug": "demo-handbook-2026",
+      "source_page": 7,
+      "source_clause": "5.2",
+      "effective_from": "2026-06-01",
+      "effective_until": "2027-05-31",
+      "caveats": [
+        "Centralized CAP merit list applies",
+        "Entrance test or normalization may apply per state rules",
+        "Subject to seat availability under lateral entry quota (up to 10% supernumerary)"
+      ],
+      "conditions": {
+        "all": [
+          {
+            "attr": "qualification.type",
+            "op": "in",
+            "value": [
+              "Diploma"
+            ],
+            "quote": "A candidate holding a Diploma in Engineering and Technology"
+          },
+          {
+            "attr": "marks.percent",
+            "op": "gte",
+            "value": 45.0,
+            "quote": "with at least 45% marks in aggregate (40% in case of reserved category candidates)"
+          },
+          {
+            "attr": "craft_certificate.mapped_trade",
+            "op": "eq",
+            "value": true,
+            "quote": "in an appropriate branch of engineering"
+          }
+        ]
+      }
+    },
+    {
+      "rule_id": "DEMO-NOTE-01",
+      "rule_key": "DEMO-NOTE-01",
+      "version": 1,
+      "route": "ITI_TO_DEGREE_DIRECT",
+      "title": "Direct Degree Entry Prohibited for ITI Standalone",
+      "status": "published",
+      "is_current": true,
+      "source_slug": "demo-handbook-2026",
+      "source_page": 4,
+      "source_clause": "3.4",
+      "effective_from": "2026-06-01",
+      "effective_until": "2027-05-31",
+      "caveats": [
+        "ITI graduates must first complete Diploma via DSE before qualifying for lateral entry B.Tech"
+      ],
+      "conditions": {
+        "all": [
+          {
+            "attr": "qualification.type",
+            "op": "ne",
+            "value": "ITI",
+            "quote": "Holders of National Trade Certificates (ITI) without a recognised Polytechnic Diploma shall not be admitted directly to Bachelor of Technology or Bachelor of Engineering programmes."
+          }
+        ]
+      }
+    }
+  ]
+}

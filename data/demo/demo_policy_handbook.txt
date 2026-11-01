@@ -1,0 +1,88 @@
+================================================================================
+EXAMPLE STATE BOARD OF TECHNICAL EDUCATION & VOCATIONAL TRAINING
+ADMISSION HANDBOOK FOR DIPLOMA & POST-DIPLOMA PROGRAMMES (2026-27)
+Document Version: v1.0 | Academic Session: 2026-2027 | Status: Current Official
+Effective: 01 June 2026 to 31 May 2027 | Authority: State Technical Education Board (DEMO)
+================================================================================
+
+[PAGE 1 - PREFACE & GENERAL DEFINITIONS]
+Clause 1.1 Purpose and Jurisdiction
+This handbook governs the rules and centralized procedures for admission to government, government-aided, and unaided polytechnic institutes offering diploma and post-diploma courses within Example State for the academic year 2026-2027. All prior circulars governing previous sessions are superseded.
+
+Clause 1.2 Non-Guarantee of Admission
+Appearance on any merit list, verification of eligibility, or fulfilment of minimum entry qualifications checks does not constitute an admission confirmed guarantee. Admission is strictly contingent on seat availability, category reservation roster, centralized choice filling, and physical verification of authentic original documents.
+
+Clause 1.3 Definitions of Qualifying Examinations
+(a) SSC: Secondary School Certificate (Class X examination) conducted by a recognized State or Central Board of Secondary Education.
+(b) ITI / NTC: National Trade Certificate awarded by the National Council for Vocational Training (NCVT) or State Trade Certificate awarded by SCVT upon successful completion of designated Craftsman Training Schemes.
+(c) HSC: Higher Secondary Certificate (Class XII examination) in Science, Technical, or Vocational stream.
+
+
+[PAGE 2 - FIRST YEAR ADMISSION RULES]
+Clause 2.1 First Year Diploma in Engineering
+A candidate seeking admission to the First Year of a three-year Diploma course in Engineering and Technology must have passed the Class X (SSC) examination of Example State Board or equivalent with a minimum of 35% aggregate marks, including Science and Mathematics as compulsory subjects.
+
+Clause 2.2 First Year Diploma in Non-Engineering Trades
+For Diploma courses in Interior Design, Garment Technology, and Commercial Practice, candidates must have passed SSC with minimum 35% marks in any group of subjects.
+
+
+[PAGE 3 - DIRECT SECOND YEAR (DSE) ADMISSION FOR ITI HOLDERS]
+Clause 3.1 Direct Second Year Admission Qualifications
+A candidate who has passed the Class X examination and holds a Two-Year Craft Certificate in a Mapped Trade shall be eligible for Direct Second Year admission to a Diploma in a Mapped Branch of Engineering and Technology. The candidate must have secured not less than 50% aggregate marks in the qualifying Trade test (45% for candidates belonging to Scheduled Castes, Scheduled Tribes, and Persons with Disabilities).
+
+Clause 3.2 Trade to Branch Mapping Schedule
+To be eligible for Direct Second Year entry under Clause 3.1, the candidate qualification must match the following approved pairings:
+- Electrician trade maps directly to Electrical Engineering Diploma.
+- Electronics Mechanic trade maps directly to Electronics and Telecommunication Engineering Diploma.
+- Fitter, Turner, or Machinist trades map directly to Mechanical Engineering Diploma.
+- Welder trade (two-year craft certificate) maps directly to Mechanical Engineering Diploma.
+- Mechanic Motor Vehicle trade maps directly to Automobile Engineering Diploma.
+- Draughtsman (Civil) or Plumber trades map directly to Civil Engineering Diploma.
+- Computer Operator and Programming Assistant (COPA) or ICTSM trades map directly to Computer Engineering or Information Technology Diploma.
+
+Clause 3.3 One-Year ITI Trades
+Holders of one-year trade certificates are not directly eligible for Direct Second Year Diploma entry unless accompanied by an apprenticeship completion certificate (NAC) or bridge course accredited by the State Board.
+
+
+[PAGE 4 - PROHIBITIONS AND STANDALONE CERTIFICATE LIMITATIONS]
+Clause 3.4 Standalone ITI to Degree Admission Prohibited
+Holders of National Trade Certificates (ITI) without a recognised Polytechnic Diploma shall not be admitted directly to Bachelor of Technology or Bachelor of Engineering programmes. Direct entry from ITI to university bachelor degree courses is not permitted under State Board regulations. ITI graduates wishing to pursue degree qualifications must first qualify for and complete an engineering diploma before seeking lateral entry to university level.
+
+Clause 3.5 Spurious and Unaccredited Institutions
+Certificates issued by training establishments not recognized by NCVT, SCVT, or Example State Directorate of Vocational Education shall be rejected during document scrutiny. Candidates holding unverified credentials shall have their application cancelled.
+
+
+[PAGE 5 - RESERVATION, DOMICILE & QUOTAS]
+Clause 4.1 State Domicile Requirements
+Eighty-five percent (85%) of total sanctioned seats in government and aided polytechnics are reserved for candidates having domicile in Example State or whose parent has resided in the State for a minimum period of 10 consecutive years.
+
+Clause 4.2 Category Reservation Quotas
+Statutory reservations for SC (13%), ST (7%), OBC (19%), and EWS (10%) are strictly allocated per government directives, subject to submission of valid Caste, Tribe, Non-Creamy Layer, and Validity Certificates at the time of scrutiny.
+
+
+[PAGE 6 - FEES, CONCESSIONS & SCHOLARSHIPS]
+Clause 4.5 Tuition Fee Waiver Scheme (TFWS)
+Up to 5% supernumerary seats in every branch are reserved for meritorious candidates whose family annual income from all sources does not exceed Rupees 8.00 Lakh. TFWS waives tuition fees only; examination and developmental fees remain payable.
+
+
+[PAGE 7 - LATERAL ENTRY FROM DIPLOMA TO DEGREE (B.TECH / B.E.)]
+Clause 5.1 Progression Pathway from Polytechnic to Degree
+Diploma holders who have completed a 3-year AICTE-approved engineering diploma or who entered Diploma through Direct Second Year and completed the prescribed curriculum are eligible to seek lateral entry directly into the Second Year (Third Semester) of Bachelor of Engineering (B.E.) or Bachelor of Technology (B.Tech) programmes.
+
+Clause 5.2 Minimum Academic Eligibility for Degree Lateral Entry
+A candidate holding a Diploma in Engineering and Technology with at least 45% marks in aggregate (40% in case of reserved category candidates) in an appropriate branch of engineering shall be eligible for lateral entry into second year B.Tech.
+
+Clause 5.3 Appropriate Branch Matching
+Lateral entry into engineering degree branches requires alignment:
+- Mechanical, Automobile, and Production diploma holders may seek lateral entry into Mechanical Engineering or allied disciplines.
+- Electrical and Electronics diploma holders may seek lateral entry into Electrical Engineering, Electronics Engineering, or Power Systems.
+- Civil and Environmental diploma holders may seek lateral entry into Civil Engineering.
+- Computer and IT diploma holders may seek lateral entry into Computer Science and Engineering or Information Technology.
+
+
+[PAGE 8 - PLACEMENT & EMPLOYMENT POLICY]
+Clause 8.1 Campus Interviews and Placement Disclaimers
+Institutes maintain vocational training cells to assist students in preparing for apprentice tests, industrial training, and campus interviews. Participation in campus interviews is subject to student eligibility, academic performance and employer criteria. No guarantee of placement or minimum salary is asserted by the Board. Institutes and coaching centres claiming 100% placement guarantees are acting without Board authorization.
+
+Clause 8.2 Mandatory Apprenticeship
+All students completing diploma courses are encouraged to register on the National Apprenticeship Training Scheme (NATS) portal for one-year post-qualification paid industrial apprenticeship under the Apprentices Act.

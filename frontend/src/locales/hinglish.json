@@ -1,0 +1,59 @@
+{
+  "ask": {
+    "placeholder": "Apna sawaal likhiye, jaise: ITI ke baad diploma kaise milega?",
+    "submit": "Poochein",
+    "example_chips": [
+      "ITI ke baad degree?",
+      "Diploma ke baad B.Tech?",
+      "Kya yeh certificate valid hai?"
+    ],
+    "privacy_note": "Apna naam ya phone number mat daaliye",
+    "consent": "Hum sirf approved documents se verify karke answer dete hain. No guarantee.",
+    "char_limit": "{{count}} / 600",
+    "over_limit": "Sawaal lamba hai (max 600 characters)",
+    "stages": {
+      "understand": "Aapka sawaal samajh rahe hain",
+      "retrieve": "Official documents dhundh rahe hain",
+      "verify": "Har statement check ho raha hai",
+      "explain": "Aapka plain answer taiyaar hai"
+    },
+    "waking": "Server start ho raha hai, ek minute lag sakta hai"
+  },
+  "verdict": {
+    "VERIFIED_FACT": "Official sources se confirm hua",
+    "MYTH_FALSE": "Sources ke hisaab se yeh sahi nahi hai",
+    "PARTIALLY_TRUE": "Aadha sahi hai: details important hain",
+    "CONTEXT_DEPENDENT": "Aapki situation par depend karta hai",
+    "INSUFFICIENT_EVIDENCE": "Hum isko verify nahi kar paaye",
+    "evidence_strength": "3 mein se {{n}} statements verified hain",
+    "review_flag": "Expert review queue mein hai"
+  },
+  "eligibility": {
+    "MEETS_CHECKED_CONDITIONS": "Record ke hisaab se conditions poori hain",
+    "NOT_ELIGIBLE_UNDER_THIS_RULE": "Is rule ke tehat eligible nahi hain",
+    "NEEDS_MORE_INFORMATION": "Aur jaankari chahiye",
+    "NEEDS_LOCAL_RULE_CHECK": "Apne state ka brochure check karein",
+    "RULE_STALE_NEEDS_REVIEW": "Rule ko review ki zaroorat hai",
+    "BRANCH_OR_TRADE_REVIEW_REQUIRED": "Institute se contact karein",
+    "disclaimer": "Yeh sirf record par maujood conditions check karta hai. Admission ka confirm faisla nahi hai."
+  },
+  "abstain": {
+    "title": "Hum isko verify nahi kar paaye",
+    "body": "Approved official sources mein is sawal ka solid answer nahi mila.",
+    "who_to_ask": "Kisse poochein"
+  },
+  "pathway": {
+    "title": "Pathway Checker",
+    "disclaimer": "Yeh sirf available conditions check karta hai. Final admission ka confirmation nahi hai.",
+    "caveats": "Entrance tests, seats aur documents yahan check nahi hote.",
+    "check_routes": "Routes Dekhein",
+    "skip_question": "Skip Karein"
+  },
+  "report": {
+    "title": "Family Report",
+    "save": "Report Save Karein",
+    "print": "Print ya PDF Save Karein"
+  },
+  "demo_banner": "DEMO DATA: Fictional policy text, official guidance nahi",
+  "footer_disclaimer": "Yeh decision support hai, official advice nahi."
+}

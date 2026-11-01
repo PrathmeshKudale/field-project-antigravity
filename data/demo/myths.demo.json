@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "myths": [
+    {
+      "myth_id": "MYTH-01",
+      "claim": "ITI ke baad seedha B.Tech ho sakta hai",
+      "verdict": "MYTH_FALSE",
+      "source_clause": "3.4",
+      "explanation": "Official admission guidelines state that ITI certificate holders cannot enter B.Tech / B.E. directly. The standard pathway is ITI -> Diploma (Direct Second Year) -> B.Tech (Lateral Entry).",
+      "quote": "Holders of National Trade Certificates (ITI) without a recognised Polytechnic Diploma shall not be admitted directly to Bachelor of Technology or Bachelor of Engineering programmes."
+    },
+    {
+      "myth_id": "MYTH-02",
+      "claim": "Diploma gives 100% guaranteed job and salary",
+      "verdict": "INSUFFICIENT_EVIDENCE",
+      "source_clause": "8.1",
+      "explanation": "Official sources do not provide employment guarantees or fixed salary assurances. Placement assistance depends on candidate performance, market conditions, and institute placement cells.",
+      "quote": "Participation in campus interviews is subject to student eligibility, academic performance and employer criteria. No guarantee of placement or minimum salary is asserted by the Board."
+    },
+    {
+      "myth_id": "MYTH-03",
+      "claim": "Any ITI trade qualifies for any engineering diploma branch",
+      "verdict": "MYTH_FALSE",
+      "source_clause": "3.1",
+      "explanation": "Direct Second Year admission requires that the completed two-year ITI trade is formally mapped to the diploma branch as per Table 3.2.",
+      "quote": "A candidate who has passed the Class X examination and holds a Two-Year Craft Certificate in a Mapped Trade shall be eligible for Direct Second Year admission to a Diploma in a Mapped Branch"
+    }
+  ]
+}

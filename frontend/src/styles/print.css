@@ -1,0 +1,8 @@
+@media print {
+  nav, .no-print, button:not(.print-include) { display: none !important; }
+  body { background: white !important; color: black !important; font-size: 12pt; }
+  .evidence-passport { display: block !important; border: 1px solid #ccc !important; }
+  a[href]::after { content: " (" attr(href) ")"; font-size: 10pt; }
+  @page { size: A4; margin: 12mm; }
+  .claim-card { page-break-inside: avoid; }
+}

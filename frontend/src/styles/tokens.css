@@ -1,0 +1,82 @@
+/* src/styles/tokens.css - Upgraded with Stitch Design System Tokens */
+:root {
+  --bg: #0b1326;
+  --surface: #131b2e;
+  --surface-2: #171f33;
+  --surface-high: #222a3d;
+  --surface-highest: #2d3449;
+  --border: #263654;
+  --border-light: rgba(56, 189, 248, 0.2);
+  --ink: #dae2fd;
+  --muted: #87929a;
+  --primary: #8ed5ff;
+  --primary-container: #38bdf8;
+  --accent: #38bdf8;
+  --accent-fg: #001e2c;
+  --secondary: #4edea3;
+  
+  --v-verified-fg: #4edea3;
+  --v-verified-bg: rgba(0, 165, 114, 0.15);
+  --v-myth-fg: #ffb4ab;
+  --v-myth-bg: rgba(147, 0, 10, 0.2);
+  --v-partial-fg: #c7c8ff;
+  --v-partial-bg: rgba(43, 41, 187, 0.2);
+  --v-context-fg: #ffd580;
+  --v-context-bg: rgba(180, 83, 9, 0.2);
+  --v-context-line: #f59e0b;
+  --v-insuff-fg: #87929a;
+  --v-insuff-bg: rgba(56, 72, 79, 0.25);
+  
+  --mark: #fde68a;
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --e1: 0 4px 20px -2px rgba(2, 6, 23, 0.5);
+  --e2: 0 12px 32px -4px rgba(2, 6, 23, 0.75), 0 0 16px 0 rgba(56, 189, 248, 0.12);
+  --ease: cubic-bezier(.2,.8,.2,1);
+}
+
+.dark {
+  --bg: #060e20;
+  --surface: #0b1326;
+  --surface-2: #131b2e;
+  --surface-high: #171f33;
+  --surface-highest: #222a3d;
+  --border: #2d3449;
+  --border-light: rgba(56, 189, 248, 0.25);
+  --ink: #dae2fd;
+  --muted: #87929a;
+  --primary: #8ed5ff;
+  --primary-container: #38bdf8;
+  --accent: #38bdf8;
+  --accent-fg: #001e2c;
+  --secondary: #4edea3;
+}
+
+/* Institutional Grid Backdrop */
+.bg-grid-institutional {
+  background-image: radial-gradient(rgba(56, 189, 248, 0.08) 1px, transparent 1px), radial-gradient(rgba(142, 213, 255, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px, 128px 128px;
+  background-position: 0 0, 16px 16px;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(19, 27, 46, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(56, 189, 248, 0.15);
+}
+
+.ambient-cyan-glow {
+  box-shadow: 0 0 40px -10px rgba(56, 189, 248, 0.25), 0 0 15px -3px rgba(56, 189, 248, 0.2);
+}
+
+.stamp-container {
+  position: relative;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.12) 0%, rgba(11, 19, 38, 0.6) 80%);
+  border: 1px solid #10b981;
+}
+
+.stamp-inner-border {
+  border: 1px dashed rgba(16, 185, 129, 0.5);
+}

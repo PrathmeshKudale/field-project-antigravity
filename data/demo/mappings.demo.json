@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "mapping_id": "MAP-1",
+  "description": "Demo ITI trade to Diploma engineering branch mapping table (FICTIONAL DEMO)",
+  "mappings": [
+    {
+      "iti_trade": "Electrician",
+      "diploma_branch": "Electrical Engineering",
+      "duration_years": 2
+    },
+    {
+      "iti_trade": "Electronics Mechanic",
+      "diploma_branch": "Electronics and Telecommunication Engineering",
+      "duration_years": 2
+    },
+    {
+      "iti_trade": "Fitter",
+      "diploma_branch": "Mechanical Engineering",
+      "duration_years": 2
+    },
+    {
+      "iti_trade": "Turner",
+      "diploma_branch": "Mechanical Engineering",
+      "duration_years": 2
+    },
+    {
+      "iti_trade": "Machinist",
+      "diploma_branch": "Mechanical Engineering",
+      "duration_years": 2
+    },
+    {
+      "iti_trade": "Welder",
+      "diploma_branch": "Mechanical Engineering",
+      "duration_years": 1
+    },
+    {
+      "iti_trade": "Mechanic Motor Vehicle",
+      "diploma_branch": "Automobile Engineering",
+      "duration_years": 2
+    },
+    {
+      "iti_trade": "Draughtsman (Civil)",
+      "diploma_branch": "Civil Engineering",
+      "duration_years": 2
+    },
+    {
+      "iti_trade": "Plumber",
+      "diploma_branch": "Civil Engineering",
+      "duration_years": 1
+    },
+    {
+      "iti_trade": "Computer Operator and Programming Assistant",
+      "diploma_branch": "Computer Engineering",
+      "duration_years": 1
+    },
+    {
+      "iti_trade": "Information and Communication Technology System Maintenance",
+      "diploma_branch": "Information Technology",
+      "duration_years": 2
+    }
+  ]
+}
