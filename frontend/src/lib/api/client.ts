@@ -1,6 +1,7 @@
 import { getToken } from "@/lib/auth";
 
-const API_BASE = "";
+// Automatically uses VITE_API_URL in production (e.g. Render/Railway URL), fallback to empty string for Vite proxy
+const API_BASE = import.meta.env.VITE_API_URL || "";
 
 export class ApiError extends Error {
   constructor(public status: number, public code: string, message: string) {
