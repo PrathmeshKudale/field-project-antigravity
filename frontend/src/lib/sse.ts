@@ -36,7 +36,8 @@ export async function streamAsk(
   onEvent: (evt: SSEEvent) => void,
   signal?: AbortSignal
 ): Promise<void> {
-  const url = `/api/v1/ask/stream?question=${encodeURIComponent(question)}`;
+  const apiBase = import.meta.env.VITE_API_URL || "";
+  const url = `${apiBase}/api/v1/ask/stream?question=${encodeURIComponent(question)}`;
   const response = await fetch(url, { signal });
   if (!response.ok || !response.body) {
     throw new Error(`HTTP ${response.status}`);

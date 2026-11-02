@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { setToken } from "@/lib/auth";
 
-const API_BASE = "/api/v1";
+const API_BASE = (import.meta.env.VITE_API_URL || "") + "/api/v1";
 
 /**
  * Google redirects here after consent: /auth/callback?code=XXX
