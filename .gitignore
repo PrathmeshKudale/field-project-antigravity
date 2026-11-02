@@ -23,6 +23,7 @@ node_modules/
 dist/
 .cache/
 *.local
+frontend/.vite/
 
 # Secrets
 .env
