@@ -49,6 +49,36 @@ app.add_exception_handler(AppError, problem_exception_handler)
 app.add_exception_handler(HTTPException, http_exception_handler)
 app.add_exception_handler(RequestValidationError, validation_exception_handler)
 
+
+# Vercel Serverless Path Restoration Middleware
+class VercelPathFixMiddleware:
+    """
+    On Vercel, serverless rewrites point to /api/index.py, which sets
+    scope['path'] to '/api/index.py' instead of the requested endpoint.
+    This middleware restores the original requested path from Vercel's
+    'x-matched-path' or 'x-forwarded-uri' header.
+    """
+    def __init__(self, asgi_app):
+        self.asgi_app = asgi_app
+
+    async def __call__(self, scope, receive, send):
+        if scope["type"] in ("http", "websocket"):
+            headers = dict(scope.get("headers", []))
+            raw_path = (
+                headers.get(b"x-matched-path")
+                or headers.get(b"x-forwarded-uri")
+                or headers.get(b"x-vercel-matched-path")
+            )
+            if raw_path:
+                path_str = raw_path.decode("latin1").split("?")[0]
+                if path_str and not path_str.endswith("index.py") and not path_str.endswith("index"):
+                    scope["path"] = path_str
+        await self.asgi_app(scope, receive, send)
+
+
+app.add_middleware(VercelPathFixMiddleware)
+
+
 # CORS — support local dev & all Vercel deployments (preview & production)
 _origins = list(settings.cors_origins)
 if "https://field-project-antigravity.vercel.app" not in _origins:
