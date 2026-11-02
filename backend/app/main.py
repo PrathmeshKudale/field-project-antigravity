@@ -49,10 +49,15 @@ app.add_exception_handler(AppError, problem_exception_handler)
 app.add_exception_handler(HTTPException, http_exception_handler)
 app.add_exception_handler(RequestValidationError, validation_exception_handler)
 
-# CORS
+# CORS — support local dev & all Vercel deployments (preview & production)
+_origins = list(settings.cors_origins)
+if "https://field-project-antigravity.vercel.app" not in _origins:
+    _origins.append("https://field-project-antigravity.vercel.app")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.cors_origins,
+    allow_origins=_origins,
+    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -73,6 +78,18 @@ app.include_router(admin_rules.router, prefix="/api/v1/admin", tags=["admin_rule
 app.include_router(admin_eval.router, prefix="/api/v1/admin", tags=["admin_eval"])
 app.include_router(admin_users.router, prefix="/api/v1/admin", tags=["admin_users"])
 app.include_router(admin_audit.router, prefix="/api/v1/admin", tags=["admin_audit"])
+
+
+@app.get("/")
+async def root():
+    return {
+        "status": "ok",
+        "app": settings.app_name,
+        "version": settings.app_version,
+        "docs": "/docs",
+        "health": "/health",
+        "api_v1": "/api/v1",
+    }
 
 
 @app.get("/health")
